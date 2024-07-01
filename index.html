@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Portfolio
+        </title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" />
+        <link rel="stylesheet" href="path/to/bootstrap/css/bootstrap.min.css">
+
+    </head>
+    <body>
+  <div id="header">
+   <img class="image" style="float:right;"  src="images/my_image.jpg" width="30%" height="100%">
+    <div class="container">
+        <nav>
+            <UL id="sidemenu">
+                <i style="color:white;"class="fas fa-times" onclick="closemenu()"></i>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#Internships">Internships</a></li>
+                <li><a href="#contact">Contact</a></li>
+                
+            </UL>
+            <i style="color:white;"class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <h1>Hi, I'm <br><span>BEGARI SUPRIYA</span></h1>
+        </div>
+    </div>
+  </div>
+  <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <h1 class="sub">About Me</h1>
+                <p>I am a creative person and good learner who enjoys coming up with new ideas and solutions. I'm good at talking to people and making sure everyone understands each other well. I learn things quickly and can pick up new skills easily. I'm excited to use my creativity, communication skills, and ability to learn fast to help in whatever job I do.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links"  onclick="opentab('subjects')">Subjects</p>
+                    <p class="tab-links"  onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Technical skills</span><br>C, C++, JAVA, PYTHON </li>
+                        <li><span>Web development</span><br>HTML, CSS, Java Script</li>
+                        <li><span>Personal Skills</span><br>Adaptability, Self motivated, Problem-Solving </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="subjects">
+                    <ul>
+                        <li><span>DBMS</span><br></li>
+                        <li><span>DCCN</span><br></li>
+                        <li><span>DAA</span><br></li>
+                        <li><span>DWDM</span><br></li>
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Bachelors of Technology(2021-2025)</span><br>Sreenidhi Institute of Science and Technology<br>CGPA:8.01</li>
+                        <li><span>Intermediate(2019-2021)</span><br>Sri Chaitanya Junior College <br>percentage:97%</li>
+                        <li><span>SSC(2018-2019)</span><br>Telangana State Residential School(Girls)<br>GPA:9.3</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+  <div id="projects">
+    <div class="container">
+        <h1 class="sub">My Projects</h1>
+        <div class="projects-list">
+            <div>
+                <h2 style="color:red">Cash Register</h2><br>
+                <p>This project ia about cash management in any stores. It takes the input Bill amount given by the customer. It also shown the number of notes to be returned of particular value (i.e; 2000,500 etc).</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <h2 style="color:red">Credit Card Fraud Deletion</h2><br>
+                <p>Developed and implemented an advanced CCFD using ML algorithms and pattern recognition techniques.Integrated real-time monitoring and adaptive learning capabilities into the system to dynamically adjust fraud detection parameters,ensuring effectiveness in identifying energing fraud patterns.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <h2 style="color:red">Number Guessing Game</h2><br>
+                <p>The first player thinks of a secret number in some known range while the second player guesses the number. After each guess, the first player answers either “Higher”, “Lower” or “Correct!” depending on whether the secret number is higher, lower or equal to the guess. this project builds a simple interactive program in Java where the computer takes the role of the first player while we play as the second player.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+  </div>
+  <div id="Internships">
+    <div class="container">
+        <h1 class="sub">My Internships</h1>
+        <div class="internships-list">
+                <div>
+                    <h2 style="color:red">Intern, Amazon Web Services</h2><br>
+                    <p>The internship in AWS for AI provided a comprehensive learning experience, combining theoretical knowledge with practical skills development in AI technologies on the AWS cloud platform. It equipped interns with valuable insights and competencies for pursuing careers in AI, cloud computing, and related fields</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <h2 style="color:red">Intern,        Cybersecurity</h2><br>
+                    <p>Completing cybersecurity training with Palo Alto Networks equips you with practical knowledge and skills to help organizations protect their assets and data from increasingly sophisticated cyber threats. It prepares you to contribute effectively to cybersecurity teams, ensuring the confidentiality, integrity, and availability of critical information and systems.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <h2 style="color:red">Intern, Data Analytics</h2><br>
+                    <p>Completing a data analytics course at AICTE equips you with the knowledge and skills needed to work effectively with data, derive meaningful insights, and contribute to data-driven decision-making processes in organizations across various sectors. It prepares you to leverage data analytics tools and techniques to solve complex problems and drive business outcomes through informed data analysis.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+    </div>
+  </div>
+  <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub">Contact Me</h1>
+                <P style="color:white;"><i class="fas fa-paper-plane"></i>&emsp13;begarisupriya04@gmail.com</P>
+                <p style="color:white;"><i class="fas fa-phone-square-alt"></i>&emsp13;9908271468</p>
+                <div class="social-icons">
+                    
+
+                    <a href="https://www.linkedin.com/in/begari-supriya-56715326a"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/begarisupriyaa"><i class="fab fa-github"></i></a>
+                    <a href="https://www.hackerrank.com/profile/21311A12Q8"><i class="fab fa-hackerrank"></i></a>
+                </div>
+                <a href="https://maroon-fidelia-92.tiiny.site" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button style="font-size:16px;" type="submit" class="btn btn2"> Submit </button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p style="color:white;">Copyright © Supriya. Made with <i style="color:#ff0040;" class="fas fa-heart"></i> by Easy Tutorials </p>
+    </div>
+  </div>
+  <script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname)
+    {
+        for(tablink of tablinks)
+        {
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents)
+        {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js" integrity="sha512-..." crossorigin="anonymous"></script>
+  <script src="index.js">
+  </script>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxlgSnkP6Z1C6dmY17bZJhp6g3rCiIzPqObDcANB7pCaeB-u4apOd64rc1zrLhja7B1/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent successfully"
+            setTimeout(function()
+            {
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+    </body>
+</html>
